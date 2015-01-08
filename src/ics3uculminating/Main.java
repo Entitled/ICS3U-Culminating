@@ -6,12 +6,11 @@ import java.io.InputStreamReader;
 
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args)throws IOException {
+            BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+
+
         int[][] boardSpaces = new int[6][5];
         int spotChosen = 0;
         int player1score = 0;
@@ -76,7 +75,7 @@ public class Main {
         }
                 }
         }
-        // TODO code application logic here
+        
     }
 
 }
